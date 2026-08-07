@@ -15,10 +15,10 @@
     article{
          display: flex;
      }
-img{
+    img{
     width:110px;
     height:100px;
-}
-.artigo-autor{
+    }
+    .artigo-autor{
     font-weight: bold ;
-}
+    }
