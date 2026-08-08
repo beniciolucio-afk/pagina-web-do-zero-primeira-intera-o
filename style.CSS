@@ -8,6 +8,9 @@
 
 --fonte-texto: 'Segoe UI', sans-serif;
 }
+*{
+     transition: background-color 0.8s ease;
+}
 
 .tema-escuro {
 --cor-primaria:#A6CEFE;
@@ -25,6 +28,9 @@ color: var(--cor-secundaria);
 }
 .tema-escuro header p {
      color: var(--cor-contraste);
+}
+.tema-escuro .btn-tema-escuro{
+     background-color: var(--cor-secundaria);
 }
 
 body{
@@ -48,7 +54,7 @@ color:var(--cor-contraste);
     article{
          display: flex;
 
-         border: 1px solid var(--cor-primaria);
+         box-shadow: 0 2px 9px  rgba(0, 0, 0, 0.3);
 
 margin: 16px;
 gap: 16px;
